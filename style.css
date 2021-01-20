@@ -1,3 +1,64 @@
 h1{
+    font-size: 50px;
     font-family: 'Raleway', sans-serif;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color: aqua;
+}
+.half-width{
+    float: left;
+    max-width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10%;
+}
+a:hover{
+    background-color: aquamarine;
+}
+.dreamArea{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dreamArea img{
+    width: 100%;
+}
+.exprienceArea{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.borderFlow{
+    box-shadow: 5px 5px 20px cyan;
+    margin: 10px;
+}
+#babyDev{
+    border-left: 10px solid red;
+}
+#proDev{
+    border-left: 10px solid tomato;
+}
+.footer{
+    text-align: center;
 }
